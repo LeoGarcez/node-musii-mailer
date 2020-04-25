@@ -1,6 +1,6 @@
 const utils = require('../utils/index')
+const mail = require('../utils/mailPolicy')
 const nodemailer = require('nodemailer')
-const { LocalStorage } = require("node-localstorage");
 
 const sendEmail = (service_email, client_id, private_key) => async (email, subject, text) => {
 
@@ -21,7 +21,7 @@ const sendEmail = (service_email, client_id, private_key) => async (email, subje
         });
 
         await transporter.verify();
-                
+        
         await transporter.sendMail({
                 from: service_email,
                 to: email,
@@ -87,8 +87,6 @@ const sendDataPolicy = (service_email, client_id, private_key) => async (email) 
     utils.isValid(email)
 
     try {
-        let localStorage = new LocalStorage('./src/mailer-integration/utils');
-
         const transporter = nodemailer.createTransport({
             host: 'smtp.gmail.com',
             port: 465,
@@ -107,7 +105,7 @@ const sendDataPolicy = (service_email, client_id, private_key) => async (email) 
                 from: service_email,
                 to: email,
                 subject: "Termos de uso",
-                text: localStorage.getItem("mailPolicy")
+                text: mail.mail
         });
 
         return {

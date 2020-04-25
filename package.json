@@ -1,6 +1,6 @@
 {
   "name": "node-musii-mailer",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "Lib que facilita o envio de email",
   "main": "src/index.js",
   "scripts": {
@@ -24,7 +24,6 @@
   "dependencies": {
     "chai": "^4.2.0",
     "mocha": "^7.1.0",
-    "node-localstorage": "^2.1.5",
     "nodemailer": "^6.4.6"
   },
   "directories": {

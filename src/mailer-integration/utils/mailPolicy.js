@@ -1,4 +1,5 @@
-Política de Dados do Musii
+
+const mail = `Política de Dados do Musii
 
 Esta política descreve, de forma detalhada, as informações que processamos para viabilizar a operação do Musii Serviços de Música Ltda. (“Política” e “Musii”, respectivamente). 
 
@@ -188,4 +189,9 @@ IX. Como entrar em contato com o Musii em caso de dúvidas?
 Se tiver dúvidas sobre esta Política, ou, quiser entrar em contato conosco, você pode nos contatar no seguinte e-mail: privacy.policies@musii.app.
 
 Musii Serviços de Música Ltda
-Data da última revisão: 10 de fevereiro de 2020.
+Data da última revisão: 10 de fevereiro de 2020.`
+
+
+module.exports = {
+    mail
+}

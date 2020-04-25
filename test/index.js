@@ -1,7 +1,7 @@
 
-const service_email = 'insert here'
-const client_id = 'insert here'
-const private_key = 'insert here'
+const service_email = 'change here'
+const client_id = 'change here'
+const private_key = 'change here'
 
 const chai = require('chai')
 const expect = require('chai').expect
