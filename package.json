@@ -1,5 +1,5 @@
 {
-  "name": "node-email-integration",
+  "name": "node-musii-mailer",
   "version": "0.0.6",
   "description": "Lib que facilita o envio de email",
   "main": "src/index.js",
@@ -8,11 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LeoGarcez/node-musii-mailer"
+    "url": "git+https://github.com/LeoGarcez/node-musii-mailer.git"
   },
   "keywords": [
     "node",
-    "spotify"
+    "mail",
+    "musii"
   ],
   "author": "Leo Garcez",
   "license": "ISC",
@@ -25,5 +26,9 @@
     "mocha": "^7.1.0",
     "node-localstorage": "^2.1.5",
     "nodemailer": "^6.4.6"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {}
 }
