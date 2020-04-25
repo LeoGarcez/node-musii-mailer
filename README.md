@@ -14,8 +14,6 @@ const service = Service(service_email, client_id, private_key)
 
 ### methods
 
-### albums
-
 ```javascript
 service.mailer.sendEmail('email', 'subject', 'text')
 ```
