@@ -1,6 +1,6 @@
 {
   "name": "node-musii-mailer",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "description": "Lib que facilita o envio de email",
   "main": "src/index.js",
   "scripts": {

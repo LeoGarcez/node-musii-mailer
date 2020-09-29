@@ -1,3 +1,8 @@
+const { emailAuthenticateCode } = require('../utils/email_codigo-de-autenticacao')
+const { emailDataPolicy } = require('../utils/email_data_policy')
+const { textDataPolicy } = require('../utils/text_data_policy')
+const { emailNewPassword } = require('../utils/email_new_password')
+
 const isValid = (item) => {
 
     if (!item || item === undefined || item === '') {
@@ -13,5 +18,9 @@ const isValid = (item) => {
 }
 
 module.exports = {
-    isValid
+    isValid,
+    emailAuthenticateCode,
+    emailNewPassword,
+    emailDataPolicy,
+    textDataPolicy
 }
