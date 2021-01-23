@@ -29,7 +29,7 @@ describe('mailer', () => {
     })*/
 
     it('sendCodeEmail', async () => {
-        const retorno = await service.mailer.sendNewPassword('garceleo@gmail.com', 'rafabambokian', '38hjdas883')
+        const retorno = await service.mailer.sendDataPolicy('pedrodnrm@gmail.com')
         chai.assert.equal(retorno.status, 200)
     })
 

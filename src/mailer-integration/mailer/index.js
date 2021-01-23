@@ -147,7 +147,7 @@ const sendDataPolicy = (service_email, client_id, private_key) => async (email) 
                 from: service_email,
                 to: email,
                 subject: "Termos de uso",
-                text: utils.textDataPolicy(),
+                text: utils.emailDataPolicy(),
                 html: utils.emailDataPolicy()
         });
 

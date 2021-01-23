@@ -34,9 +34,9 @@ const emailDataPolicy = () => {
         <h1 style="color: #774980;">Termos<br> e Condições</h1>
       </div>
       <div style="padding: 48px 48px 48px;">
-        <p style="font-size: 18px;">Olá, <span style="font-size: 20px; font-weight: 700;">user name</span>!</p>
+        <p style="font-size: 18px;">Olá!</p>
         <p>
-          Conforme solicitou, aqui estão os "<a href="#" target="_blank" style="text-decoration: none; color:#605b6d; font-weight: 700;">Termos e Condições</a>" do musii.<br>
+          Conforme solicitou, aqui estão os "<a href="https://1drv.ms/b/s!AunOkXxY_m_EgdsXTwDcQglWNDA1Zw?e=3jEb8w" target="_blank" style="text-decoration: none; color:#605b6d; font-weight: 700;">Termos e Condições</a>" do musii.<br>
           Somos uma rede que preza pela transparência e seguraça dos nossos usuários. Caso tenha alguma dúvida ou sugestão, queremos te ouvir.<br> Responda a esse e-mail com sua questão ou feedback.
         </p>
         <p>Obrigado mais uma vez por ser membro da nossa comunidade!</p>
